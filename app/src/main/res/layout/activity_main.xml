@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="370dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_background"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:hint="Enter Email / Mobile"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_width="370dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_background"
+            android:ems="10"
+            android:fontFamily="@font/baloo"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="464dp"
+        android:layout_marginBottom="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/baloo"
+            android:hint="Login" />
+
+
+        <Button
+            android:id="@+id/regbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/baloo"
+            android:hint="Register" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
