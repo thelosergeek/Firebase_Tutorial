@@ -17,17 +17,13 @@
         android:orientation="vertical">
 
 
-        <Button
-            android:id="@+id/btgoogle"
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google"
             android:layout_width="370dp"
             android:layout_height="58dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/google"
-            android:ems="10"
-            android:paddingLeft="20dp" />
+            android:ems="10" />
+
 
         <Button
             android:id="@+id/btgithub"
