@@ -44,7 +44,7 @@
             android:ems="10"
             android:fontFamily="@font/baloo"
             android:hint="Email"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:paddingLeft="20dp" />
 
         <EditText
