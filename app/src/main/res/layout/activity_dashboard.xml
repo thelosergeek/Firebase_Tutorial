@@ -11,7 +11,7 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:text="Welcome to DashBoard!"
@@ -23,6 +23,7 @@
         android:text="Log Out"
         android:id="@+id/logbtn"
         android:layout_below="@id/editText"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

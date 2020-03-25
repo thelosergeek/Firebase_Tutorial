@@ -29,7 +29,7 @@ public class Registration extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
     private int RC_SIGN_IN = 1;
-    private Button regist, git, phone;
+    private Button regist, phone;
 
 
     @Override
@@ -38,7 +38,6 @@ public class Registration extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
 
         regist = (Button) findViewById(R.id.btnemail);
-        git = (Button) findViewById(R.id.btgithub);
         phone = (Button) findViewById(R.id.btphone);
         signInButton = findViewById(R.id.google);
         mAuth = FirebaseAuth.getInstance();
